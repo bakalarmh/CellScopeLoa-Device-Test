@@ -1,0 +1,156 @@
+
+/* Class = "IBUILabel"; text = "Enter patient ID"; ObjectID = "0C6-9g-SEO"; */
+"0C6-9g-SEO.text" = "Enter patient ID";
+
+/* Class = "IBUILabel"; text = "Inconsitent capillary replicates"; ObjectID = "0JP-tz-FZq"; */
+"0JP-tz-FZq.text" = "Inconsitent capillary replicates";
+
+/* Class = "IBUIButton"; normalTitle = "edit"; ObjectID = "1Gz-oe-sch"; */
+"1Gz-oe-sch.normalTitle" = "edit";
+
+/* Class = "IBUILabel"; text = "LL00001"; ObjectID = "2k3-sp-XdG"; */
+"2k3-sp-XdG.text" = "LL00001";
+
+/* Class = "IBUIBarButtonItem"; title = "Finished"; ObjectID = "6VS-Fw-84g"; */
+"6VS-Fw-84g.title" = "Finished";
+
+/* Class = "IBUILabel"; text = "ISO:"; ObjectID = "7A4-JB-XHQ"; */
+"7A4-JB-XHQ.text" = "ISO:";
+
+/* Class = "IBUILabel"; text = "Devices"; ObjectID = "BQc-6r-CZn"; */
+"BQc-6r-CZn.text" = "Devices";
+
+/* Class = "IBUILabel"; text = "Data"; ObjectID = "D9r-2H-Msp"; */
+"D9r-2H-Msp.text" = "Data";
+
+/* Class = "IBUILabel"; text = "Capillary 2:"; ObjectID = "Dqb-DB-Ugr"; */
+"Dqb-DB-Ugr.text" = "Capillary 2:";
+
+/* Class = "IBUILabel"; text = "ABCDEFG"; ObjectID = "EVU-Qc-6Jv"; */
+"EVU-Qc-6Jv.text" = "ABCDEFG";
+
+/* Class = "IBUILabel"; text = "ABCDEFG"; ObjectID = "FEW-HR-2gc"; */
+"FEW-HR-2gc.text" = "ABCDEFG";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Identifiers"; ObjectID = "GWe-bf-GQd"; */
+"GWe-bf-GQd.headerTitle" = "Identifiers";
+
+/* Class = "IBUILabel"; text = "0 mf/ml, 26,000 mf/ml"; ObjectID = "LOe-Fr-ULH"; */
+"LOe-Fr-ULH.text" = "0 mf/ml, 26,000 mf/ml";
+
+/* Class = "IBUILabel"; text = "Dev ID:"; ObjectID = "OgP-Fj-ma1"; */
+"OgP-Fj-ma1.text" = "Dev ID:";
+
+/* Class = "IBUILabel"; text = "Exp:"; ObjectID = "PoF-K5-wdg"; */
+"PoF-K5-wdg.text" = "Exp:";
+
+/* Class = "IBUIBarButtonItem"; title = "Abort"; ObjectID = "Q5G-xj-8cY"; */
+"Q5G-xj-8cY.title" = "Abort";
+
+/* Class = "IBUIButton"; normalTitle = "Cancel"; ObjectID = "QAY-kI-vwa"; */
+"QAY-kI-vwa.normalTitle" = "Cancel";
+
+/* Class = "IBUILabel"; text = "5.6 per field"; ObjectID = "QdT-1m-m9W"; */
+"QdT-1m-m9W.text" = "5.6 per field";
+
+/* Class = "IBUILabel"; text = "Redraw blood and repeat test"; ObjectID = "Qde-16-V8y"; */
+"Qde-16-V8y.text" = "Redraw blood and repeat test";
+
+/* Class = "IBUILabel"; text = "12,000 mf/ml"; ObjectID = "SZH-q7-NDx"; */
+"SZH-q7-NDx.text" = "12,000 mf/ml";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Imaging"; ObjectID = "T06-r9-EAo"; */
+"T06-r9-EAo.headerTitle" = "Imaging";
+
+/* Class = "IBUILabel"; text = "Barcode"; ObjectID = "UB7-SB-6wb"; */
+"UB7-SB-6wb.text" = "Barcode";
+
+/* Class = "IBUILabel"; text = "Settings"; ObjectID = "UmY-uE-9ye"; */
+"UmY-uE-9ye.text" = "Settings";
+
+/* Class = "IBUILabel"; text = "Exposure/ISO:"; ObjectID = "Vds-2x-H67"; */
+"Vds-2x-H67.text" = "Exposure/ISO:";
+
+/* Class = "IBUIButton"; normalTitle = "Enter ID Manually"; ObjectID = "WXc-Tw-IDs"; */
+"WXc-Tw-IDs.normalTitle" = "Enter ID Manually";
+
+/* Class = "IBUILabel"; text = "Capillary 1:"; ObjectID = "X8o-um-mHa"; */
+"X8o-um-mHa.text" = "Capillary 1:";
+
+/* Class = "IBUIButton"; normalTitle = "Start test"; ObjectID = "YmN-8C-8xm"; */
+"YmN-8C-8xm.normalTitle" = "Start test";
+
+/* Class = "IBUILabel"; text = "Test"; ObjectID = "Zfw-rm-TWx"; */
+"Zfw-rm-TWx.text" = "Test";
+
+/* Class = "IBUISegmentedControl"; aXn-PB-dB6.segmentTitles[0] = "Manual"; ObjectID = "aXn-PB-dB6"; */
+"aXn-PB-dB6.segmentTitles[0]" = "Manual";
+
+/* Class = "IBUISegmentedControl"; aXn-PB-dB6.segmentTitles[1] = "Autofocus"; ObjectID = "aXn-PB-dB6"; */
+"aXn-PB-dB6.segmentTitles[1]" = "Autofocus";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Data collection"; ObjectID = "bmc-Mv-rYp"; */
+"bmc-Mv-rYp.headerTitle" = "Data collection";
+
+/* Class = "IBUILabel"; text = "Device ID:"; ObjectID = "cdh-Mn-dVg"; */
+"cdh-Mn-dVg.text" = "Device ID:";
+
+/* Class = "IBUILabel"; text = "Test result is invalid"; ObjectID = "dUi-0U-HrQ"; */
+"dUi-0U-HrQ.text" = "Test result is invalid";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Action"; ObjectID = "dcL-gP-fJ7"; */
+"dcL-gP-fJ7.headerTitle" = "Action";
+
+/* Class = "IBUILabel"; text = "Device label"; ObjectID = "gG2-2S-6le"; */
+"gG2-2S-6le.text" = "Device label";
+
+/* Class = "IBUILabel"; text = "White balance:"; ObjectID = "hrK-eI-ssH"; */
+"hrK-eI-ssH.text" = "White balance:";
+
+/* Class = "IBUILabel"; text = "Select new device"; ObjectID = "jAk-GD-Tnh"; */
+"jAk-GD-Tnh.text" = "Select new device";
+
+/* Class = "IBUIBarButtonItem"; title = "Searching"; ObjectID = "jtn-kz-QcX"; */
+"jtn-kz-QcX.title" = "Searching";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Test Information"; ObjectID = "k9B-vW-fQb"; */
+"k9B-vW-fQb.headerTitle" = "Test Information";
+
+/* Class = "IBUILabel"; text = "ISO"; ObjectID = "kig-8m-z5M"; */
+"kig-8m-z5M.text" = "ISO";
+
+/* Class = "IBUILabel"; text = "Phone ID:"; ObjectID = "oCl-65-KwS"; */
+"oCl-65-KwS.text" = "Phone ID:";
+
+/* Class = "IBUILabel"; text = "Capture"; ObjectID = "plD-t5-LWd"; */
+"plD-t5-LWd.text" = "Capture";
+
+/* Class = "IBUILabel"; text = "Connected"; ObjectID = "pqr-Lc-Ek3"; */
+"pqr-Lc-Ek3.text" = "Connected";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Manage devices"; ObjectID = "rFe-cv-9ox"; */
+"rFe-cv-9ox.headerTitle" = "Manage devices";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Default device"; ObjectID = "s1p-Nv-UnO"; */
+"s1p-Nv-UnO.headerTitle" = "Default device";
+
+/* Class = "IBUITextField"; placeholder = "Patient ID"; ObjectID = "trj-Fb-CoB"; */
+"trj-Fb-CoB.placeholder" = "Patient ID";
+
+/* Class = "IBUILabel"; text = "Enter administrators password"; ObjectID = "uWT-ar-xVH"; */
+"uWT-ar-xVH.text" = "Enter administrators password";
+
+/* Class = "IBUILabel"; text = "Exp"; ObjectID = "y4H-z1-HB6"; */
+"y4H-z1-HB6.text" = "Exp";
+
+/* Class = "IBUIBarButtonItem"; title = "Lock"; ObjectID = "yfB-sd-llC"; */
+"yfB-sd-llC.title" = "Lock";
+
+/* Class = "IBUILabel"; text = "ABCDEFG"; ObjectID = "zJP-jc-2Sq"; */
+"zJP-jc-2Sq.text" = "ABCDEFG";
+
+/* Class = "IBUILabel"; text = "NIH ID:"; ObjectID = "zKc-PX-uKH"; */
+"zKc-PX-uKH.text" = "NIH ID:";
+
+/* Class = "IBUILabel"; text = "CSL ID:"; ObjectID = "zlO-SE-h7x"; */
+"zlO-SE-h7x.text" = "CSL ID:";

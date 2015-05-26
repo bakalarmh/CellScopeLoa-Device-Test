@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6244" systemVersion="13F34" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CapillaryRecord" representedClassName="CapillaryRecord" syncable="YES">
+        <attribute name="capillaryIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="created" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="errorString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectsPerField" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="objectsPerMl" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="testUUID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="testRecord" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TestRecord" inverseName="capillaryRecords" inverseEntity="TestRecord" syncable="YES"/>
+        <relationship name="videos" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Video" syncable="YES"/>
+    </entity>
+    <entity name="MotionObject" representedClassName="MotionObject" syncable="YES">
+        <attribute name="t" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="x" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="y" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="TestRecord" representedClassName="TestRecord" syncable="YES">
+        <attribute name="boardUUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="deviceID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="localTimeZone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="objectsPerField" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="objectsPerMl" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="patientNIHID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePhoneID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simpleTestID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="testMode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="testNIHID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="testUUID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="capillaryRecords" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CapillaryRecord" inverseName="testRecord" inverseEntity="CapillaryRecord" syncable="YES"/>
+    </entity>
+    <entity name="Video" representedClassName="Video" syncable="YES">
+        <attribute name="averageObjectCount" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="capillaryIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="created" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="errorString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fieldIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="resourceURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="testUUID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="motionObjects" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MotionObject" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CapillaryRecord" positionX="115" positionY="144" width="128" height="163"/>
+        <element name="MotionObject" positionX="450" positionY="240" width="128" height="88"/>
+        <element name="TestRecord" positionX="-63" positionY="-18" width="128" height="298"/>
+        <element name="Video" positionX="279" positionY="189" width="128" height="163"/>
+    </elements>
+</model>

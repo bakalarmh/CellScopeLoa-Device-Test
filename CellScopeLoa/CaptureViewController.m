@@ -32,6 +32,8 @@
 @synthesize cameraButton;
 @synthesize forwardButton;
 @synthesize reverseButton;
+@synthesize servoInButton;
+@synthesize servoOutButton;
 @synthesize managedObjectContext;
 @synthesize cslContext;
 
@@ -88,6 +90,18 @@
     fieldIndex = 0;
 }
 
+- (void)resetCaptureState
+{
+    // Set the capture state
+    fieldIndex = 0;
+    
+    [UIView animateWithDuration:0.3 animations:^{
+        cameraButton.enabled = YES;
+        servoOutButton.enabled = YES;
+        servoInButton.enabled = YES;
+    }];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -112,6 +126,8 @@
         [camera captureWithDuration:5.0 URL:assetURL];
         [UIView animateWithDuration:0.3 animations:^{
             cameraButton.enabled = NO;
+            servoOutButton.enabled = NO;
+            servoInButton.enabled = NO;
         }];
     }
     else {
@@ -125,6 +141,7 @@
         
         // Return to the test view controller
         // [[self navigationController] popViewControllerAnimated:YES];
+        [self resetCaptureState];
     }
 }
 
@@ -197,14 +214,14 @@
 - (IBAction)forwardPressed:(id)sender
 {
     if (cslContext.loaDevice != nil) {
-        [cslContext.loaDevice servoAdvance];
+        [cslContext.loaDevice servoRetract];
     }
 }
 
 - (IBAction)reversePressed:(id)sender
 {
     if (cslContext.loaDevice != nil) {
-        [cslContext.loaDevice servoRetract];
+        [cslContext.loaDevice servoAdvance];
     }
 }
 
@@ -229,6 +246,11 @@
             focusSlider.alpha = 0.0;
         }];
     }
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [self.navigationController.toolbar setHidden:NO];
 }
 
 - (void)viewWillDisappear:(BOOL)animated

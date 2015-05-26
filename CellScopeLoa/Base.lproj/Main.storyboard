@@ -445,7 +445,7 @@
                                         </connections>
                                     </segmentedControl>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rtZ-Fz-Ina">
-                                        <rect key="frame" x="245" y="8" width="67" height="30"/>
+                                        <rect key="frame" x="195" y="19" width="67" height="30"/>
                                         <state key="normal" title="Servo out">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -454,7 +454,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="whu-5r-dfG">
-                                        <rect key="frame" x="8" y="8" width="56" height="30"/>
+                                        <rect key="frame" x="58" y="19" width="56" height="30"/>
                                         <state key="normal" title="Servo in">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -495,6 +495,8 @@
                         <outlet property="focusSlider" destination="jUB-vi-CL2" id="wTR-Dc-zEt"/>
                         <outlet property="forwardButton" destination="m8c-Hm-n0Q" id="B8m-hY-rVv"/>
                         <outlet property="reverseButton" destination="m4x-2a-OzR" id="hZg-dg-sx7"/>
+                        <outlet property="servoInButton" destination="whu-5r-dfG" id="WVN-TS-obO"/>
+                        <outlet property="servoOutButton" destination="rtZ-Fz-Ina" id="agh-fI-ftv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DKb-w8-dKp" userLabel="First Responder" sceneMemberID="firstResponder"/>

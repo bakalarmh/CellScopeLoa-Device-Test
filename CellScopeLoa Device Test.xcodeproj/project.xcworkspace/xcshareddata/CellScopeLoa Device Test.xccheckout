@@ -10,14 +10,14 @@
 	<string>CellScopeLoa Device Test</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>03A44DF385EDD7958C42C284CAEEFC4F776776D1</key>
+		<key>DBC86DB6FC359D1CBDE13580B9514DE04D4F5EA2</key>
 		<string>https://github.com/bakalarmh/CellScopeLoa-May-2015.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>CellScopeLoa Device Test.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>03A44DF385EDD7958C42C284CAEEFC4F776776D1</key>
+		<key>DBC86DB6FC359D1CBDE13580B9514DE04D4F5EA2</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>03A44DF385EDD7958C42C284CAEEFC4F776776D1</string>
+	<string>DBC86DB6FC359D1CBDE13580B9514DE04D4F5EA2</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>03A44DF385EDD7958C42C284CAEEFC4F776776D1</string>
+			<string>DBC86DB6FC359D1CBDE13580B9514DE04D4F5EA2</string>
 			<key>IDESourceControlWCCName</key>
 			<string>CellScopeLoa%20Device%20Test</string>
 		</dict>
